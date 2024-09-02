@@ -1,0 +1,4 @@
+$ docker run -v odoo-data:/var/lib/odoo -d -p 8069:8069 --name odoo --link db:db16 -t odoo
+
+
+$ docker run -d -e POSTGRES_USER=devcode-odoo16 -e POSTGRES_PASSWORD=devcode-odoo16 -e POSTGRES_DB=postgres --name db16 postgres:15
