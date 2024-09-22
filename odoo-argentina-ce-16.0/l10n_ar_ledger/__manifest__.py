@@ -13,6 +13,7 @@
     "external_dependencies": {},
     "data": [
         "views/account_vat_ledger.xml",
+        "security/ir.model.access.csv",
         "report/account_vat_ledger.xml",
         "report/account_vat_ledger_xlsx.xml",
     ],

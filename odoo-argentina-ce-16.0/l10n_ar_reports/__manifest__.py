@@ -14,6 +14,7 @@
     "data": [
         "report/account_ar_vat_line_view.xml",
         "report/account_vat_ledger_report.xml",
+        "security/ir.model.access.csv",
         "views/account_vat_report_views.xml",
     ],
     "demo": [],
